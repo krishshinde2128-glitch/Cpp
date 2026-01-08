@@ -5,7 +5,7 @@ int main() {
     int a;
     float b;
     double c;
-    char d; 
+    char d;
     bool e;
 
     cout << "size of int: " << sizeof(a) << " bytes" << endl;
