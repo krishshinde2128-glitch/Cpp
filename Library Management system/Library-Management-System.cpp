@@ -137,7 +137,7 @@ int main() {
             if (exists) {
                 cout << "Error: Member ID already exists!\n";
             } else {
-                cout << "Enter Member Name (dont use spaces): "; cin >> m.name;
+                cout << "Enter Member Name (No_Spaces): "; cin >> m.name;
                 ofstream mFile("members.txt", ios::app);
                 mFile << m.memberID << " " << m.name << endl;
                 mFile.close();
